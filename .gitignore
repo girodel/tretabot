@@ -1,0 +1,20 @@
+# Ignorar carpetas de compilación de ROS 2
+build/
+install/
+log/
+
+# Archivos de Python (si tienes nodos o scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de parámetros que no quieras compartir (opcional)
+# params/secret_config.yaml
